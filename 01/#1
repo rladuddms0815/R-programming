@@ -1,0 +1,23 @@
+num <- 3.14
+char <- as.character(num)
+print(paste("실수형 3.14를 문자형으로 변환한 결과:", char))  
+
+char <- "3.14"
+num <- as.numeric(char)
+print(paste("문자형 '3.14'를 실수형으로 변환한 결과:", num))  
+
+num <- 0
+logical <- as.logical(num)
+print(paste("실수형 0을 논리형으로 변환한 결과:", logical))  
+
+logical <- TRUE
+num <- as.numeric(logical)
+print(paste("논리형 TRUE를 실수형으로 변환한 결과:", num)) 
+
+char <- "TRUE"
+logical <- as.logical(char)
+print(paste("문자형 'TRUE'를 논리형으로 변환한 결과:", logical)) 
+
+logical <- FALSE
+char <- as.character(logical)
+print(paste("논리형 FALSE를 문자형으로 변환한 결과:", char)) 
